@@ -3,7 +3,6 @@ st.title("專案首頁")
 
 
 with st.sidebar:
-    st.write("專案清單")
-    st.write("**專案說明")
-    st.write("**專案功能")
-    st.write("**專案使用工具")
+    st.page_link("pages/home.py" , label="Home"),
+    st.page_link("pages/mycv.py" , label="我的履歷"),
+    st.page_link("pages/project1.py" , label="執行專案")
