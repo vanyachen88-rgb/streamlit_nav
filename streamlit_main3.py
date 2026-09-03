@@ -1,24 +1,21 @@
 import streamlit as st
 
-
 menuList= {
      "功能A": [
                 st.Page("pages/home.py" , title="Home",icon=":material/home:" ),
-                st.Page("pages/mycv.py" , title="我的履歷" ),
-                st.Page("https://github.com/mymis168", title="我的GitHub")                   
+                st.Page("pages/mycv.py" , title="我的履歷" ),                   
             ],
       "專案列表": [
                 st.Page("pages/project1.py" , title="執行專案"),
                 st.Page("pages/project2.py" , title="執行專案2"),
-                st.Page("pages/myproject.py" , title="執行專案3"),
-                st.Page("https://github.com/mymis168/streamlit_nav", title="nav專案")    
-                  ],
+                st.Page("pages/myproject.py" , title="執行專案")    
+                  ]
 }
 
 pageList=[
     st.Page("pages/home.py" , title="Home" ),
     st.Page("pages/mycv.py" , title="我的履歷" ),   
-    st.Page("pages/myproject.py" , title="執行專案3")    
+    st.Page("pages/myproject.py" , title="執行專案")    
 ]
 # st.navigation 建立後回傳一個 pages 物件 , 並不會直接執行
 pgnav = st.navigation(
