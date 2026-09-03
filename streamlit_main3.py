@@ -11,8 +11,8 @@ menuList= {
                 st.Page("pages/project1.py" , title="執行專案"),
                 st.Page("pages/project2.py" , title="執行專案2"),
                 st.Page("pages/myproject.py" , title="執行專案3"),
-                st.Page("https://github.com/mymis168/streamlit_nav", title="nav專案"    
-                  ]
+                st.Page("https://github.com/mymis168/streamlit_nav", title="nav專案")    
+                  ],
 }
 
 pageList=[
